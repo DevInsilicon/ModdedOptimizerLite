@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "moddedoptimizerlite",
+  "version": "${version}",
+  "name": "ModdedOptimizerLite",
+  "description": "This mod will not let you mine anything under you good for mining your PMine in BroKits",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/moddedoptimizerlite/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.insilicon.moddedoptimizerlite.client.ModdedoptimizerliteClient"
+    ],
+    "main": [
+      "dev.insilicon.moddedoptimizerlite.Moddedoptimizerlite"
+    ]
+  },
+  "mixins": [
+    "moddedoptimizerlite.mixins.json",
+    {
+      "config": "moddedoptimizerlite.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

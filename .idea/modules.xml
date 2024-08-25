@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.client.iml" filepath="$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ModdedOptimizerLite.test.iml" />
+    </modules>
+  </component>
+</project>
